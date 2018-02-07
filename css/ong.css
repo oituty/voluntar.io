@@ -1,0 +1,179 @@
+html, body{
+    margin: 0;
+    padding: 0; 
+    
+}
+
+
+            /* HEADER */
+                            /* CONTAINER COM LOGO, CARROSSEL DE FRASES E SETA*/
+.imgtop{
+    
+    height: 13em;
+    width: 100%;
+    background: url(../img/tech.gif);
+    background-repeat: no-repeat;
+    background-position: center -20em;;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.titulo{
+    color: black;
+    margin: 0;
+    font-size: 2.6em;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    
+}
+
+.subtitulo{
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+.explicas{
+    margin-bottom: 1%;
+}
+.expl{
+    font-size: 1.2em;
+}
+
+.gostou{
+    font-size: 1em;
+    padding-top: 1.5%;
+}
+
+
+
+.navbar-nav{
+    display: inline-block;
+}
+
+.tagnav{
+    font-size: 1em;
+}
+.navbar{
+    background-color: rgb(100, 35, 35);
+    border: 0;
+    border-radius: 0;
+    padding-bottom: 0;
+    opacity: 0;
+    height: 5em;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+    height: 5em;
+    opacity: 0.8;
+}
+
+.affix + .seila {
+    padding-top: 70px;
+}
+
+.navbar-inverse{
+    margin: 0;
+}
+
+
+.inicio{
+    width: 100%;
+    height: 40em;
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+                            /* LOGO */
+.logoinicio{
+    width: 20%;
+    height: auto;
+    margin-bottom: 0;
+}
+
+.seta{
+    width: 4%;
+    -webkit-animation:seta 0.7s alternate infinite;
+    -moz-animation:seta 0.7s alternate infinite;
+    animation:seta 0.7s alternate infinite;
+}
+
+@-moz-keyframes seta { 100% { -moz-transform: translate(0, 18px); } }
+@-webkit-keyframes seta { 100% { -webkit-transform: translate(0, 18px); } }
+@keyframes seta { 100% { -webkit-transform: translate(0, 18px); transform:translate(0, 18px); } }
+
+                        /* AUMENTO DE TAMANHO AO PASSAR O MOUSE */
+.seta:hover{
+    width: 5.5%;
+}
+
+.divseta{
+    width: 100%;
+    height: 3em;
+    background-color: white;
+    text-align: center;
+    padding: 1.5%;
+}
+
+.tag{
+    font-size: 2.5em;
+    color: white;
+    margin-top: 0;
+}
+
+.cadastro{
+    width: 100%;
+    background-color: wheat;
+    text-align: center;
+    
+
+}
+
+.espaço{
+    height: 2em;
+    background-color: white;
+}
+
+.areadecadas{
+    height: 40em;
+    width: 100%;
+    background-color: white;
+}
+
+.dados{
+    width: 60%;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+
+.form-row{
+    padding-top: 2%;
+}
+
+
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 80%;
+}
+
+h1{
+    padding: 1em;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Bree Serif', serif;
+
+}

@@ -1,0 +1,116 @@
+html, body{
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+            /* HEADER */
+
+header{
+    color: white;
+    position: relative;
+    background: url("../img/giflento.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 51em;
+    text-align: center;
+    overflow: hidden;
+    justify-content: center;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+img{
+    margin-top: 16em;
+    margin-bottom: 1em;
+    width: 60%;
+    overflow: hidden;
+    background-size: cover;
+    padding: 1em;
+}
+
+            /* FOOTER */
+
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: brown;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 80%;
+}
+
+h1{
+    padding: 1em;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'Bree Serif', serif;
+
+}
+
+
+            /* BOTÃO CENTRAL */
+
+.btn{
+	border-radius: 20em;
+	color: brown;
+    height: auto;
+	font-size: 1.5em;
+	font-weight: bold;
+    text-transform: uppercase;
+    border-color: brown;
+    background-color: white;
+    justify-content: center;
+    border-width: 0.2em;
+    overflow: hidden;
+
+}
+
+.btn:hover{
+	background-color: brown;
+    color: white;
+    border-color:brown;
+    font-size: 1.6em;
+}
+
+.hey{
+    opacity: 0.5;
+}
+
+.hey:hover{
+    opacity: 2;
+}
+
+@media screen and (max-width: 1000px) {
+
+    header {
+        height: 44em;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+    img {
+        width: 95%;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+    
+    .btn:hover{
+        font-size: 1.1em;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+        header {
+            height: 44em;
+        }
+
+}
+
+
+
+
