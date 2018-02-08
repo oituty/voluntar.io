@@ -50,37 +50,6 @@ html, body{
 
 
 
-.navbar-nav{
-    display: inline-block;
-}
-
-.tagnav{
-    font-size: 1em;
-}
-.navbar{
-    background-color: rgb(100, 35, 35);
-    border: 0;
-    border-radius: 0;
-    padding-bottom: 0;
-    opacity: 0;
-    height: 5em;
-}
-
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 9999 !important;
-    height: 5em;
-    opacity: 0.8;
-}
-
-.affix + .seila {
-    padding-top: 70px;
-}
-
-.navbar-inverse{
-    margin: 0;
-}
 
 
 .inicio{

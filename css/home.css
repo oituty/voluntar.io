@@ -1,7 +1,7 @@
 html, body{
     margin: 0;
     padding: 0;
-    background-color: black; 
+    background-color: white; 
 
 }
 
@@ -50,6 +50,7 @@ html, body{
     font-size: 1.1em;
     padding-bottom: 3%;
 }
+
 /* 
 .teste{
     font-size: 1.7em;
@@ -70,6 +71,8 @@ html, body{
     text-align: center;
 }
 
+
+
 .seta{
     width: 4%;
     -webkit-animation:seta 0.7s alternate infinite;
@@ -87,101 +90,27 @@ html, body{
 }
                
 
-                            
-                                /* ESPAÇO ENTRE HEADER E SECTION CADASTRO */
-                            
-.espacocadas{
-    height: 11em;
-    background-color: white;
-    background-position: 0 -40em;
-}
-
-.vem{
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', cursive;
-    text-shadow: 0.1em 0.1em 0.1em black;
-    background-color: white;
-    color: brown;
-
-}
-
-.hoje{
-    font-size: 3em;
-    padding: 3em;
-    text-transform: uppercase;
-}
-
-                                /* NAV */
-
-/* .navbar-nav{
-    display: inline-block;
-}
-
-.tagnav{
-    font-size: 1em;
-}
-.navbar{
-    background-color: rgb(100, 35, 35);
-    border: 0;
-    border-radius: 0;
-    padding-bottom: 0;
-    opacity: 0;
-    height: 5em;
-}
-
-.affix {
-    top: 0;
-    width: 100%;
-    z-index: 9999 !important;
-    height: 5em;
-    opacity: 0.8;
-}
-
-.affix + .seila {
-    padding-top: 70px;
-}
-
-.navbar-inverse{
-    margin: 0;
-} */
-
-            /* SECTION CADASTRO */
-.inicio{
-    text-align: center;
-    background-color: white;
-}
-
-.jornal{
-    width: 75%;
-   
-}
-
-.expli{
-    font-family: 'Franklin Gothic Medium', cursive;
-    text-shadow: 0.1em 0.1em 0.1em black;
-    font-size: 1.5vw;
-    color: brown;
-    margin-top: 5em;
-}
-
 .espaçocadastro{
     height: 3em;
+    background-color: white;
 }
 
 .cadastro{
     display: flex;
     margin: 0;
     padding: 0;
+    background-color: white;
     
 }
 .cadasvolun{
     width: 50%;
     height: 48em;
-    background-image: url(../img/img8.jpg);
+    background-image: url(../img/img9.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: auto 100%;
     background-position: right;
     text-align: center;
+    background-color: white;
 }
 
 .cadasong{
@@ -189,14 +118,19 @@ html, body{
     height: 48em;
     background-image: url(../img/img7.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: left;
+    background-size: auto 100%;
     text-align: center;
+    background-color: white;
     
 }
 
 .dadosvolun{
     margin-top: 15em;
+}
+
+.dadosvolun2{
+    margin-top: 15em;
+    display: none;
 }
 
 .infoong{
@@ -245,14 +179,72 @@ html, body{
     font-size: 0.75em;
 }
 
+
+                            
+                                /* ESPAÇO ENTRE HEADER E SECTION CADASTRO */
+                            
+.espacocadas{
+    height: 11em;
+    background-color: white;
+    background-position: 0 -40em;
+}
+
+.vem{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', cursive;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    background-color: white;
+    color: brown;
+
+}
+
+.hoje{
+    font-size: 3em;
+    padding: 3em;
+    text-transform: uppercase;
+}
+
+                                /* NAV */
+
+
+
+            /* SECTION CADASTRO */
+.inicio{
+    text-align: center;
+    background-color:white;
+}
+
+.jornal{
+    width: 75%;
+   
+}
+
+
+.expli{
+    font-family: 'Franklin Gothic Medium', cursive;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-size: 1.5vw;
+    color: brown;
+    margin-top: 5em;
+}
+
+.expli2{
+    font-family: 'Franklin Gothic Medium', cursive;
+    text-shadow: 0.1em 0.1em 0.1em black;
+    font-size: 1.5vw;
+    color: green;
+    margin-top: 5em;
+}
+
+
                     /* ESPAÇO ENTRE CADASTRO E INFO */
 
 
                     /* ESPAÇO PRETO ENTRE SEÇÕES */
-.espaço{
+/* .espaço{
     height: 0.3em;
     background-color: black;
-}
+} */
 
             /* SECTION INFO */
 
@@ -376,6 +368,14 @@ html, body{
 } */
 
                  /*SECTION ONGS*/
+                
+
+/* .ogs{
+    display: none;
+}
+.ativa{
+    display: block;
+} */
 
 .espacoongs{
     height: 20em;
@@ -383,20 +383,37 @@ html, body{
                     
 }
 
+
+
+.projeto{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    opacity: 0.7;
+}
+
+.projeto:hover{
+    opacity: 0;
+}
+
 .blocosub{
     width: 100%;
     height: 3em;
-    background-image: url(../img/bkgpergu.jpg)
+    background-image: url(../img/bkgpreto.jpg)
 }
 
 .ogs{
     display: flex;
     padding: 0;
+    height: 35em;
     background-image: url(../img/bkgpergu.jpg);
 }
 
 .infoongs{
-    background-image: url(../img/bkgpreto.jpg);
+    background-image: url(../img/bkgpergu.jpg);
     width: 50%;
     height: 40em;
     text-align: center;
@@ -412,10 +429,10 @@ html, body{
 }
 
 .card{
-    background-image: url(../img/bkgpergu.jpg);
-    color: rgb(253, 243, 243);
+    background-color: rgb(226, 215, 215);
+    color: black;
     text-align: center;
-    margin: 0;
+    margin: 1em;
     border-radius: 0;
     font-size: 1em;
     border: 0;
@@ -510,9 +527,14 @@ footer{
     .cadasvolun{
         width: 100%;
         height: 20em;
-        background-image: url(../img/img4.jpg);
+        background-image: url(../img/img6.jpg);
         margin: 0;
         padding: 0;
+        background-position: right;
+    }
+
+    .nome{
+        margin-bottom: 0;
     }
 
     .cadasong{
@@ -521,11 +543,19 @@ footer{
         margin: 0;
         padding: 0;
         background-image: url(../img/img5.jpg);
-        margin-top: 5em;
+        margin-top: 1em;
     }
 
     .dadosvolun{
         margin-top: 0;
+        display: none;
+    }
+
+    .dadosvolun2{
+        display: block;
+        margin-top: 0;
+        margin-left: 1em;
+        margin-right: 1em;
     }
                         /* SECTION INFORMAÇÕES */
 
@@ -578,5 +608,7 @@ footer{
     
 }
 
+                                /* TESTE */
 
+                                
 

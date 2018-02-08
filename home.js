@@ -1,17 +1,16 @@
 // SLIDE DE FRASES INICIO
 
-// let carro1 = document.querySelectorAll('.subtituloinicio');
-//   let slider = 0;
-//     function avancarSlide1(){
-//       carro1[slider].style.display = 'none';
-//         slider++;
-//     if(slider >= carro1.length){
-//               slider = 0;
-//     }
-//       carro1[slider].style.display = 'block';
-//     }
-//     setInterval(avancarSlide1, 3500);
-//     avancarSlide1();
+// let imgs = document.querySelectorAll('.ogs');
+// let slider = 0;
+// function avancarSlide(){
+//   imgs[slider].style.display = 'none';
+//   slider++;
+//   if(slider >= imgs.length){
+//     slider = 0;
+//   }
+//   imgs[slider].style.display = 'block';
+// }
+// setInterval(avancarSlide, 2000);
 
 // LETRAS DIGITANDO ESPAÇO ONGS
 
